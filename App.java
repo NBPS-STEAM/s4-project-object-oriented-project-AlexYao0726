@@ -14,10 +14,18 @@ public class App {
           if(hotdog == true)
           {
             System.out.println("Result: You are a boy who likes to eat hot dog.");
+            Hotdog h1 = new Hotdog();
+            System.out.print("Here is a ");
+            System.out.print(h1.length);
+            System.out.print(" inches Hotdog made with ");
+            System.out.print(h1.bread);
+            System.out.print(" & ");
+            System.out.print(h1.meat);
+            System.out.print(". Enjoy! :D");
           }
           else
           {
-            System.out.println("Result: You are a boy who doesn't like to eat hot dog.");
+            System.out.println("Result: You are a boy who doesn't like to eat hot dog. :c");
           }
         }
         if(boy == false)
@@ -27,10 +35,18 @@ public class App {
           if(pizza == true)
           {
             System.out.println("Result: You are a girl who likes to eat pizza.");
+            Pizza p1 = new Pizza();
+            System.out.print("Here is a ");
+            System.out.print(p1.length);
+            System.out.print(" inches Pizza made with ");
+            System.out.print(p1.bread);
+            System.out.print(" & ");
+            System.out.print(p1.meat);
+            System.out.print(". Enjoy! :D");
           }
           else
           {
-            System.out.println("Result: You are a girl who doesn't like to eat pizza.");
+            System.out.println("Result: You are a girl who doesn't like to eat pizza. :c");
           }
         }
     }
